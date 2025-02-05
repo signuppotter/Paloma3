@@ -86,14 +86,14 @@
 }
 
 .door-left {
-  background-image: url("https://raw.githubusercontent.com/signuppotter/Paloma2/refs/heads/main/Left.webp");
+  background-image: url("https://raw.githubusercontent.com/signuppotter/Paloma2/refs/heads/main/Left2.webp");
   background-size: cover;
   background-position: right center;
   right: 0;
 }
 
 .door-right {
-  background-image: url("https://raw.githubusercontent.com/signuppotter/Paloma2/refs/heads/main/right.webp");
+  background-image: url("https://raw.githubusercontent.com/signuppotter/Paloma2/refs/heads/main/right2.webp");
   background-size: cover;
   background-position: left center;
   left: 0;
