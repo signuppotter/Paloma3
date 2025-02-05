@@ -283,14 +283,28 @@
 body,
 a,
 .item-wrapper {
-  cursor: url("https://raw.githubusercontent.com/signuppotter/Paloma2/cb79147496353c21cead8b4ba6fc163e38b40879/Asset%201skulle.svg"),
+  cursor: url("https://raw.githubusercontent.com/signuppotter/Paloma2/a5d8ee0c35aab18747978bd3a01e5313c55980f4/NormalPointer.svg"),
     auto;
 }
 
 a:hover,
 .item-wrapper:hover {
-  cursor: url("https://raw.githubusercontent.com/signuppotter/Paloma2/71d5596651ed9d8d8ade0d62d022b01010bce2df/Asset%202skulle.svg"),
+  cursor: url("https://raw.githubusercontent.com/signuppotter/Paloma2/a5d8ee0c35aab18747978bd3a01e5313c55980f4/HoverPointer.svg"),
     pointer;
+}
+
+a:active,
+.item-wrapper:active,
+a:focus, /* Optional: Add focus for keyboard navigation */
+.item-wrapper:focus { /* Optional: Add focus for keyboard navigation */
+  cursor: url("https://raw.githubusercontent.com/signuppotter/Paloma2/4e6826a95083d4f29aa233ee8fe97492a91cfaea/ClickPointer.svg"),
+    pointer; /* changed to ClickPointer */
+}
+
+/* Optional: Add for dragging.  This is a basic example and might need further customization */
+.item-wrapper.dragging {
+  cursor: url("https://raw.githubusercontent.com/signuppotter/Paloma2/4e6826a95083d4f29aa233ee8fe97492a91cfaea/DragPointer.svg"),
+    move; /* changed to DragPointer, using "move" for fallback */
 }
 
 /* Mobile Responsive Styles */
